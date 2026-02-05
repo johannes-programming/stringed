@@ -18,8 +18,12 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Typing :: Typed",
 ]
-dependencies = []
-description = "stringed"
+dependencies = [
+    "datahold>=2.3.0.dev2,<3",
+    "datarepr",
+    "cmp3",
+]
+description = "This project provides StrKeyDict."
 keywords = []
 name = "stringed"
 readme = "README.rst"
@@ -33,3 +37,4 @@ file = "LICENSE.txt"
 Download = "https://pypi.org/project/stringed/#files"
 Index = "https://pypi.org/project/stringed/"
 Source = "https://github.com/johannes-programming/stringed/"
+Website = "https://stringed.johannes-programming.online/"
